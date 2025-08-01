@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3665728955656301757
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MA_FireWood
+  m_Shader: {fileID: -6465566751694194690, guid: 376874a4f565d4543a6032559bcf1f1b,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distorsion:
+        m_Texture: {fileID: 2800000, guid: 795f2365688ae584b874e047f5bc2ead, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient_Texture:
+        m_Texture: {fileID: 2800000, guid: 523662fc716e63942b87348100939678, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Tex_1:
+        m_Texture: {fileID: 2800000, guid: 8de430f66b3cb6f46b62a68bae2560b7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Tex_2:
+        m_Texture: {fileID: 2800000, guid: 53951107e3f71a4488ac830a2a2fdf25, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _op_Mask:
+        m_Texture: {fileID: 2800000, guid: 2993fd3dbbeea1e4f95bf410927ce423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Bloom_int: 3
+    - _Depth_fade: 0
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _Smooth_in: 0
+    - _Smooth_out: 1
+    - _UV_Dis_INt: -0.42
+    - _UV_Dis_opt_Int: 0.06
+    m_Colors:
+    - _Noise_1_speed: {r: 0.6, g: 0.6, b: 0, a: -1}
+    - _Noise_2_speed: {r: 0.6, g: 0.6, b: 0, a: -1}
+  m_BuildTextureStacks: []
