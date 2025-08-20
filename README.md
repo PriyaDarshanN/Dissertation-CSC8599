@@ -1,0 +1,3 @@
+This demo showcases my Master’s dissertation project on Real-Time Fire Rendering and 2D Fluid Simulation in Unity. The project combines a custom HLSL fire shader with dynamic smoke and ash particles, and a 2D Navier–Stokes fluid solver coded in Unity. Both systems run in real time within the Universal Render Pipeline (URP), balancing visual quality with performance efficiency. Benchmarks show stable frame rates above 100 FPS on mid-range hardware, highlighting the potential of low-level shader programming and simulation coding as alternatives to Unity’s built-in Shader Graph and VFX Graph.
+
+Keywords: Unity, HLSL, GPU rendering, real-time VFX, fire shader, particle systems, fluid simulation, URP, Navier–Stokes, game development
